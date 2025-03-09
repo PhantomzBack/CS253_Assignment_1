@@ -1,0 +1,268 @@
+{
+    "book_id_prefix": "B",
+    "books": [
+        {
+            "ISBN": "9780062315007",
+            "author": "Paulo Coelho",
+            "id": "B0",
+            "publisher": "HarperCollins",
+            "title": "The Alchemist"
+        },
+        {
+            "ISBN": "9780307474278",
+            "author": "Dan Brown",
+            "id": "B1",
+            "publisher": "Doubleday",
+            "title": "The Da Vinci Code"
+        },
+        {
+            "ISBN": "9780743273565",
+            "author": "F. Scott Fitzgerald",
+            "id": "B2",
+            "publisher": "Scribner",
+            "title": "The Great Gatsby"
+        },
+        {
+            "ISBN": "9781529051438",
+            "author": "Douglas Adams",
+            "id": "B4",
+            "publisher": "Pan Macmillan UK",
+            "title": "The Ultimate Hitchhiker's Guide to the Galaxy"
+        },
+        {
+            "ISBN": "9780141346045",
+            "author": "John Green",
+            "id": "B3",
+            "publisher": "PENGUIN UK",
+            "title": "Turtles All the Way Down"
+        },
+        {
+            "ISBN": "9788179925911",
+            "author": "Stephen Hawking",
+            "id": "B5",
+            "publisher": "Jaico Publishing House",
+            "title": "The Theory Of Everything"
+        },
+        {
+            "ISBN": "9789358566147",
+            "author": "Max Planck, Niels Bohr",
+            "id": "B6",
+            "publisher": "Fingerprint! Publishing",
+            "title": "Quantum Theory"
+        },
+        {
+            "ISBN": "9780141345659",
+            "author": "John Green",
+            "id": "B7",
+            "publisher": "PENGUIN UK",
+            "title": "The Fault in Our Stars"
+        },
+        {
+            "ISBN": "9788172344436",
+            "author": "Jerome K. Jerome",
+            "id": "B8",
+            "publisher": "Fingerprint! Publishing",
+            "title": "Three Men In A Boat"
+        },
+        {
+            "ISBN": "9788175992955",
+            "author": "H. G. Wells",
+            "id": "B9",
+            "publisher": "Fingerprint! Publishing",
+            "title": "The Time Machine"
+        }
+    ],
+    "core_librarian": {
+        "id": "L",
+        "password": "admin",
+        "username": "admin"
+    },
+    "current_date": 20230204,
+    "current_date_str": "04-02-2023",
+    "faculty_id_prefix": "F",
+    "student_id_prefix": "S",
+    "users": [
+        {
+            "dues": 0,
+            "id": "S0",
+            "password": "test",
+            "transaction_data": {
+                "borrowed_books": [],
+                "history": [
+                    {
+                        "book": "B0",
+                        "borrow_date": 20221201,
+                        "borrow_date_str": "01-12-2022",
+                        "fine_paid": 0,
+                        "pending_fine": 0,
+                        "return_date": 20221215,
+                        "return_date_str": "15-12-2022"
+                    },
+                    {
+                        "book": "B1",
+                        "borrow_date": 20221225,
+                        "borrow_date_str": "25-12-2022",
+                        "fine_paid": 0,
+                        "pending_fine": 0,
+                        "return_date": 20230101,
+                        "return_date_str": "01-01-2023"
+                    },
+                    {
+                        "book": "B2",
+                        "borrow_date": 20230101,
+                        "borrow_date_str": "01-01-2023",
+                        "fine_paid": 0,
+                        "pending_fine": 0,
+                        "return_date": 20230101,
+                        "return_date_str": "01-01-2023"
+                    },
+                    {
+                        "book": "B0",
+                        "borrow_date": 20230204,
+                        "borrow_date_str": "04-02-2023",
+                        "fine_paid": 0,
+                        "pending_fine": 0,
+                        "return_date": 20230204,
+                        "return_date_str": "04-02-2023"
+                    }
+                ],
+                "notifications": [],
+                "reserved_books": []
+            },
+            "username": "raviarora"
+        },
+        {
+            "dues": 0,
+            "id": "F0",
+            "password": "test",
+            "transaction_data": {
+                "borrowed_books": [],
+                "history": [],
+                "notifications": [],
+                "reserved_books": []
+            },
+            "username": "khushal_wadhwa"
+        },
+        {
+            "dues": 0,
+            "id": "S0",
+            "password": "hva",
+            "transaction_data": {
+                "borrowed_books": [],
+                "history": [
+                    {
+                        "book": "B2",
+                        "borrow_date": 20230101,
+                        "borrow_date_str": "01-01-2023",
+                        "fine_paid": 0,
+                        "pending_fine": 0,
+                        "return_date": 20230101,
+                        "return_date_str": "01-01-2023"
+                    },
+                    {
+                        "book": "B3",
+                        "borrow_date": 20230101,
+                        "borrow_date_str": "01-01-2023",
+                        "fine_paid": 0,
+                        "pending_fine": 20,
+                        "return_date": 20230117,
+                        "return_date_str": "17-01-2023"
+                    },
+                    {
+                        "book": "B3",
+                        "borrow_date": 20230117,
+                        "borrow_date_str": "17-01-2023",
+                        "fine_paid": 0,
+                        "pending_fine": 40,
+                        "return_date": 20230204,
+                        "return_date_str": "04-02-2023"
+                    },
+                    {
+                        "book": "B0",
+                        "borrow_date": 20230204,
+                        "borrow_date_str": "04-02-2023",
+                        "fine_paid": 0,
+                        "pending_fine": 0,
+                        "return_date": 20230204,
+                        "return_date_str": "04-02-2023"
+                    }
+                ],
+                "notifications": [],
+                "reserved_books": []
+            },
+            "username": "hva"
+        },
+        {
+            "dues": 0,
+            "id": "S1",
+            "password": "abcde123",
+            "transaction_data": {
+                "borrowed_books": [],
+                "history": [],
+                "notifications": [],
+                "reserved_books": []
+            },
+            "username": "achyuth_w"
+        },
+        {
+            "dues": 0,
+            "id": "S2",
+            "password": "hpk12345",
+            "transaction_data": {
+                "borrowed_books": [],
+                "history": [],
+                "notifications": [],
+                "reserved_books": []
+            },
+            "username": "harshpreet_kaur"
+        },
+        {
+            "dues": 0,
+            "id": "S3",
+            "password": "aarav_maggu",
+            "transaction_data": {
+                "borrowed_books": [],
+                "history": [],
+                "notifications": [],
+                "reserved_books": []
+            },
+            "username": "aarav_oswal"
+        },
+        {
+            "dues": 0,
+            "id": "S4",
+            "password": "nikgod123",
+            "transaction_data": {
+                "borrowed_books": [],
+                "history": [],
+                "notifications": [],
+                "reserved_books": []
+            },
+            "username": "nikhilp23"
+        },
+        {
+            "dues": 0,
+            "id": "F1",
+            "password": "micky123",
+            "transaction_data": {
+                "borrowed_books": [],
+                "history": [],
+                "notifications": [],
+                "reserved_books": []
+            },
+            "username": "mukesh_arora"
+        },
+        {
+            "dues": 0,
+            "id": "F2",
+            "password": "latiarora",
+            "transaction_data": {
+                "borrowed_books": [],
+                "history": [],
+                "notifications": [],
+                "reserved_books": []
+            },
+            "username": "latika_arora"
+        }
+    ]
+}
