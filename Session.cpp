@@ -102,7 +102,7 @@ void Session::construct_options()
     {
         case LOAD_OR_CREATE_LIBRARY:
         {
-            options = {"Load Library", "Create Library", "Write To File", "Quit Application"};
+            options = {"Load Library", "Create Library", "Quit Application"};
             int option = get_option();
             if(option == 1){
                 std::cout << "Please enter the filename to load from (default is library.json)" << std::endl;
@@ -125,21 +125,21 @@ void Session::construct_options()
                 std::cout << "Successfully created a new library! Admin librarian username is admin and password is admin" << std::endl;
                 state = LOGGED_OUT_MAIN_MENU;
             }
+            // else if(option == 3){
+            //     std::cout << "Please enter the filename to write to (default is library.json)" << std::endl;
+            //     std::string filename;
+            //     getline(std::cin, filename);
+            //     if(filename == ""){
+            //         filename = "library.json";
+            //     }
+            //     if(library->write_to_file(filename)){
+            //         std::cout << "Successfully wrote to file!" << std::endl;
+            //     }
+            //     else{
+            //         std::cout << "Error writing to file!" << std::endl;
+            //     }
+            // }
             else if(option == 3){
-                std::cout << "Please enter the filename to write to (default is library.json)" << std::endl;
-                std::string filename;
-                getline(std::cin, filename);
-                if(filename == ""){
-                    filename = "library.json";
-                }
-                if(library->write_to_file(filename)){
-                    std::cout << "Successfully wrote to file!" << std::endl;
-                }
-                else{
-                    std::cout << "Error writing to file!" << std::endl;
-                }
-            }
-            else if(option == 4){
                 state = EXIT;
             }
             break;
